@@ -1,5 +1,7 @@
 # 👷 `worker-template` Hello World
 
+## NOTE: You must be using the Modules RC to use this template. Check the [wrangler releases page](https://github.com/cloudflare/wrangler/releases) for more information
+
 A template for kick starting a Cloudflare Workers project using custom builds and webpack
 
 * Worker code is in `src/`. The event handler is in `index.js`, and the `handleRequest` method is in
