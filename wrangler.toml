@@ -7,4 +7,5 @@ zone_id = ""
 
 [build]
 command = "npm install && npm run build"
-upload_format = "service-worker"
+upload.format = "service-worker"
+upload.main = "./index.js"
